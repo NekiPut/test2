@@ -23,10 +23,11 @@ public class WoerterRatenDrwenskiMethod {
 		
 		System.out.println(new String(buchstaben));
 		
+		@SuppressWarnings("resource")
 		Scanner eingabe = new Scanner(System.in);
 		System.out.println("Dein Tipp: ");
 		String tipp = eingabe.next();
-		if(tipp.equals("BICYCLE")) {
+		if(tipp.equals(wort)) {
 			System.out.println("BICYCLE is the right answer");
 		}else
 			System.out.println("Wrong, it is BICYCLE");

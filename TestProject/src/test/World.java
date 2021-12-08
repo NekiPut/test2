@@ -11,6 +11,6 @@ public class World {
 
 		Random rdm = new Random();
 		int zufallszahl = rdm.nextInt(100);	
-		System.out.println(zufallszahl + " Du Lutscher!");
+		System.out.println(zufallszahl);
 	}
 }

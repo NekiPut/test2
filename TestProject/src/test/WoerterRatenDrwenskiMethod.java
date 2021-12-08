@@ -27,10 +27,17 @@ public class WoerterRatenDrwenskiMethod {
 		Scanner eingabe = new Scanner(System.in);
 		System.out.println("Dein Tipp: ");
 		String tipp = eingabe.next();
-		if(tipp.equalsIgnoreCase(wort)) {
-			System.out.println("BICYCLE is the right answer");
-		}else
-			System.out.println("Wrong, it is BICYCLE");
+
+		if(tipp.charAt(0) == wort.charAt(0)) {
+			System.out.println("1. Buchstabe richtig!");
+		}else {
+			System.out.println("1. Buchstabe falsch! baka");
+		}
+		
+//		if(tipp.equalsIgnoreCase(wort)) {
+//			System.out.println("BICYCLE is the right answer");
+//		}else
+//			System.out.println("Wrong, it is BICYCLE");	
 	}
 
 }

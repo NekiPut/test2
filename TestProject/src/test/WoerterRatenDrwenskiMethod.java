@@ -27,7 +27,7 @@ public class WoerterRatenDrwenskiMethod {
 		Scanner eingabe = new Scanner(System.in);
 		System.out.println("Dein Tipp: ");
 		String tipp = eingabe.next();
-		if(tipp.equals(wort)) {
+		if(tipp.equalsIgnoreCase(wort)) {
 			System.out.println("BICYCLE is the right answer");
 		}else
 			System.out.println("Wrong, it is BICYCLE");

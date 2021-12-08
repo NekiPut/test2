@@ -1,6 +1,7 @@
 package test;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class WoerterRatenDrwenskiMethod {
 
@@ -21,6 +22,10 @@ public class WoerterRatenDrwenskiMethod {
 		}
 		
 		System.out.println(new String(buchstaben));
+		
+		Scanner eingabe = new Scanner(System.in);
+		System.out.println("Dein Tipp: ");
+		String tipp = eingabe.next();
 	}
 
 }

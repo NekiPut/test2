@@ -38,6 +38,10 @@ public class WoerterRatenDrwenskiMethod {
 //			System.out.println("BICYCLE is the right answer");
 //		} else
 //			System.out.println("Wrong, it is BICYCLE");	
+		if(tipp.equalsIgnoreCase(wort)) {
+			System.out.println("BICYCLE is the right answer");
+		}else
+			System.out.println("Wrong, it is BICYCLE");
 	}
 
 }

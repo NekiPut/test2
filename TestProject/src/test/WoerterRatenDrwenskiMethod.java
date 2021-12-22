@@ -29,11 +29,10 @@ public class WoerterRatenDrwenskiMethod {
 		String tipp = eingabe.next();
 
 		for(int i = 0; i < wort.length(); i++) {
-		
 			if(tipp.charAt(i) == wort.charAt(i)) {
-				System.out.println((i + 1) + ". Buchstabe richtig!");
+				System.out.println(tipp.charAt(i));
 			}else {
-				System.out.println((i + 1) + ". Buchstabe falsch! baka");
+				System.out.println("*");
 			}	
 		}
 
